@@ -1,5 +1,7 @@
 @echo off
-:: Windows 10 Privacy Restore Script (Undo Changes)
+:: Windows 10 Privacy & Tracking Cleanup Script
+:: Copyright (c) 2026 [maxxwellsc]
+:: Licensed under the GPL 3.0 License (see LICENSE file for details)
 echo.
 echo ======================================================
 echo   RESTORING WINDOWS DEFAULTS (ADMIN REQUIRED)
