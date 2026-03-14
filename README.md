@@ -1,4 +1,4 @@
-# 🛡️ WIndowsPrivacyEnabler
+# 🛡️ Windows Privacy Enabler
 
 A lightweight, transparent Batch script to disable background tracking, telemetry, and hidden logging in Windows 10. Perfect for SSD users who want to stop unnecessary disk writes and data collection.
 
@@ -80,7 +80,7 @@ pause
 Use code with caution.
 
 ⚠️ Troubleshooting for New Users
-	•	"Windows protected your PC" pop-up:This is normal for .bat files. Click More Info-> Run anyway.
+	•	"Windows protected your PC" pop-up: This is normal for .bat files. Click More Info-> Run anyway.
 	•	Access Denied errors: This means the script wasn't "Run as Administrator." Close it and try again by right-clicking the file.
 	•	Antivirus Alerts: Some AVs don't like registry edits. You may need to temporarily "Allow" the file.
 
