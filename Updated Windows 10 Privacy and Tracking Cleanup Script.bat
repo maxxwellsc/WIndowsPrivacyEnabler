@@ -1,5 +1,8 @@
 @echo off
-:: Windows 10 Privacy & Tracking Cleanup Script - Updated Version
+:: Windows 10 Privacy & Tracking Cleanup Script
+:: Copyright (c) 2026 [maxxwellsc]
+:: Licensed under the GPL 3.0 License (see LICENSE file for details)
+
 echo.
 echo ======================================================
 echo   RUNNING PRIVACY CLEANUP (ADMIN PRIVILEGES REQUIRED)
