@@ -85,7 +85,6 @@ Use code with caution.
 	•	Antivirus Alerts: Some AVs don't like registry edits. You may need to temporarily "Allow" the file.
 	•   "Access Denied" or Script Blocks: If the script fails to remove the Feedback Hub or gives a PowerShell error, your system might have a restrictive Execution Policy. To fix this, run this command in an **Admin PowerShell** window before running the script:
 	
-```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
