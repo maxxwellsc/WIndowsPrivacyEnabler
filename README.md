@@ -83,6 +83,10 @@ Use code with caution.
 	•	"Windows protected your PC" pop-up: This is normal for .bat files. Click More Info-> Run anyway.
 	•	Access Denied errors: This means the script wasn't "Run as Administrator." Close it and try again by right-clicking the file.
 	•	Antivirus Alerts: Some AVs don't like registry edits. You may need to temporarily "Allow" the file.
+	•   "Access Denied" or Script Blocks: If the script fails to remove the Feedback Hub or gives a PowerShell error, your system might have a restrictive Execution Policy. To fix this, run this command in an **Admin PowerShell** window before running the script:
+	
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
 Disclaimer: This script modifies system settings. While tested and safe, it is always a good idea to create a System Restore point before running.
